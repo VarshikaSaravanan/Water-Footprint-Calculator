@@ -1,4 +1,4 @@
-# 🌊Water Footprint Predictor
+# 🌊Water Footprint Calculator
 📖 Overview
 Water scarcity is a growing global concern, particularly in agriculture, which accounts for a significant portion of the world's freshwater withdrawals. The Water Footprint Predictor is an AI-powered web application designed to address this challenge by providing estimated water consumption data for various agricultural crops. By bridging the gap between complex data science and everyday farming, this tool empowers farmers, researchers, and policymakers to make informed, data-driven decisions that promote sustainable resource management and water conservation.
 
