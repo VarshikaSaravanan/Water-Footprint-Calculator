@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prediction History</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-emerald-50 min-h-screen flex items-center justify-center p-6">
+  <div class="bg-white p-8 rounded-2xl shadow-md w-full max-w-3xl">
+    <h1 class="text-2xl font-bold text-emerald-700 mb-4">📜 Past Predictions</h1>
+    {% if history %}
+      <ul class="space-y-2 text-gray-800">
+        {% for item in history %}
+          <li>🌾 {{ item.crop }} in {{ item.state }} ({{ item.area }} ha) → <strong>{{ item.prediction }} m³</strong></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No predictions yet.</p>
+    {% endif %}
+    <div class="mt-6">
+      <a href="/" class="text-emerald-600 hover:underline">🔙 Back to Prediction</a>
+    </div>
+  </div>
+</body>
+</html>
