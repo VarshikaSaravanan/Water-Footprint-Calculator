@@ -19,3 +19,8 @@ Install dependencies: pip install -r requirements.txt
 Ensure the model files (modelo.pkl, encoder.pkl) are in the models/ directory.
 Run the application: python app.py
 Open your browser and navigate to http://localhost:5000.
+<img width="1600" height="793" alt="image" src="https://github.com/user-attachments/assets/a29bc4eb-c02f-4e3e-8a08-9a47172a657d" />
+<img width="1600" height="797" alt="image" src="https://github.com/user-attachments/assets/41f459b5-fac7-4778-9f12-6476509433e0" />
+<img width="1600" height="801" alt="image" src="https://github.com/user-attachments/assets/05409f7b-05c1-4a3a-8ce4-2bacd6ef21de" />
+
+
